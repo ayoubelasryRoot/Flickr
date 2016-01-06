@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImageRand</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="search_menu">Search</string>
+    <string name="searchable_label">Search Query</string>
+    <string name="title_activity_view_photo_details">Photo</string>
+
+</resources>

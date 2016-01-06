@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="1dp"
+    android:paddingRight="15dp"
+    android:paddingTop="20dp"
+    android:background="#ffffff">
+
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleDuration="400"
+        app:mrl_rippleFadeDuration="75"
+        app:mrl_rippleColor="#595959"
+        app:mrl_rippleRoundedCorners="10dp"
+        app:mrl_rippleDimension="10dp"
+        app:mrl_rippleAlpha="0.4"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_ripplePersistent="true"
+
+
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textColor="#595959"
+        android:maxLines="1"
+        android:layout_marginLeft="9dp"
+        android:textSize="18dp"
+        android:layout_marginStart="9dp"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:layout_marginTop="9dp" />
+
+    <TextView android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textColor="#666666"
+        android:maxLines="1"
+        android:textSize="14dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignStart="@+id/title" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/thumbnail"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/placeholder"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#ffffff"/>
+        </RelativeLayout>
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+
+
+
+</RelativeLayout>

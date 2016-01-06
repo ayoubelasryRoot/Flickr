@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="flickrPrimaryBackgroundColor">#2962FF</color>
+    <color name="flickrSecondaryBackgroundColor">#0d8df2</color>
+    <color name="flickrColorBackgroundAccent">#2196F3</color>
+
+</resources>
